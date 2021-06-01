@@ -12,7 +12,7 @@ header{
     position: relative;
 }
 h1{
-color: white;
+color:  #fffdfe88;
 text-align: center;
 font-size: xx-large;
 padding-top: 50px;
@@ -46,7 +46,7 @@ form{
 label{
     text-align: center;
     font-family: 'Righteous', cursive;
-    color: white;
+    color:  #fffdfe88;
 }
 #form input{
     /* margin: 25px; */
@@ -61,4 +61,8 @@ label{
 img{
     width: 100px;
     height: 100px;
+}
+
+footer{
+    background-color: #f376a288;
 }
