@@ -1,0 +1,64 @@
+body{
+    background-image: url('../img/backgroundexam.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: 'Righteous', cursive;
+}
+header{
+    background-color: rgba(202, 240, 251, 255);
+    padding: 30px;
+    position: relative;
+}
+h1{
+color: white;
+text-align: center;
+font-size: xx-large;
+padding-top: 50px;
+}
+#headerImg img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    
+}
+.container{
+    width: 90px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: lfr lfr ;
+    column-gap: 15px;
+    /* float: left; */
+}
+
+form{
+    height: 200px;
+    background-color:  #5d4b7696;
+    padding: 20px;
+    font-weight: 700;
+    margin: 30px;
+    border-radius: 10%;
+    
+}
+label{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+#form input{
+    /* margin: 25px; */
+}
+#form select{
+    /* margin: 25px; */
+    width: 170px;
+}
+#imgDiv{
+    background-color:#5d4b7696;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
