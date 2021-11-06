@@ -103,7 +103,7 @@ function setItem() {
 }
 
 function GetItem() {
-  let string = localStorage.getItem('places');
+  let string = localStorage.getItem('place');
   let objString = JSON.parse(string);
 
   if (objString !== null) {
