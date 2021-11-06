@@ -99,11 +99,11 @@ function submitter(event) {
 
 
 function setItem() {
-  localStorage.setItem('place', JSON.stringify(places));
+  localStorage.setItem('places', JSON.stringify(places));
 }
 
 function GetItem() {
-  let string = localStorage.getItem('place');
+  let string = localStorage.getItem('places');
   let objString = JSON.parse(string);
 
   if (objString !== null) {
